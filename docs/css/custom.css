@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'LXGWWenKaiScreen';
-    src: url('../fonts/LXGWWenKaiScreen.ttf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/fonts/LXGWWenKaiScreen.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;

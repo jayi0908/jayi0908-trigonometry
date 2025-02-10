@@ -13,10 +13,10 @@ $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$.
 
 === "共边比例定理"
     <div>
-        <img src="../image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+        <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
     </div>
     <div>
-        <img src="../image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+        <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
     </div>
     <p style="margin-bottom: 8px;">
         如图，$\triangle ABC$及$BC$边上一点$D$，有$\dfrac{S_{\triangle ABD}}{S_{\triangle ADC}}=\dfrac{BD}{DC}$.
@@ -31,10 +31,10 @@ $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$.
 
 === "分角定理"
     <div>
-        <img src="../image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+        <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
     </div>
     <div>
-        <img src="../image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+        <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
     </div>
     (<s>对还是这张图</s>)  
     <p style="margin-bottom: 8px;">

@@ -1,9 +1,9 @@
 变相同一法指的是：
 <div>
-    <img src="../image/变相同一法_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/变相同一法_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="../image/变相同一法_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/变相同一法_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <br>如图，则有<br>$$\angle BAD =\angle CAE \Leftrightarrow \dfrac{\sin \angle B A D}{\sin \angle D A C}=\dfrac{\sin \angle C A E}{\sin \angle E A B}. $$
 

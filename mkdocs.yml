@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: docs/custom
   language: 'zh'
-  favicon: icons/favicon.png
+  favicon: https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/custom/icons/favicon.png
   icon: 
     logo: material/notebook-outline
     top: material/arrow-up-thin
@@ -68,7 +68,7 @@ extra:
   #     find what they're searching for. With your consent, you're helping us to
   #     make our documentation better.
 extra_css:
-  - ./css/custom.css
+  - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/css/custom.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
   - javascripts/katex.js
