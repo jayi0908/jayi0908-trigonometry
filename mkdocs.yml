@@ -1,0 +1,96 @@
+site_name: Trigonometry by jayi0908
+site_url: https://jayi0908.github.io/trigonometry/
+copyright: Copyright &copy; 2024-? <a href="https://github.com/jayi0908" target="_blank" rel="noopener">jayi0908</a>
+theme:
+  name: material
+  language: 'zh'
+  favicon: icon/favicon.png
+  icon: 
+    logo: material/notebook-outline
+    top: material/arrow_upward
+  features:
+    - navigation.footer # 允许页脚导航
+    - navigation.tabs # 允许标签导航
+    - navigation.tabs.sticky # 允许标签导航固定
+    - navigation.sections # 允许章节导航
+    - navigation.path # 允许路径导航(形如 Home > Details)
+    - navigation.top # 允许返回顶部
+    - navigation.instant 
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+  font: false
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: teal
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: blue
+      accent: orange
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true # 允许使用通用的数学公式
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption # 允许图片和表格添加标题
+
+use_directory_urls: false
+
+plugins:
+  - search: 
+      lang: [zh, en]
+      # separator: '[\s\-,:!=\[\]()"/]+|(?<!\w)\.(?!\d)|&[lg]t;' # 分词器分词规则，"[\s\-,:!=\[\]()"/]+"为特殊分隔符，"(?<!\w)\.(?!\d)"为小数点分隔符，"&[lg]t;"为HTML转义字符
+      jieba_dict:  # 自定义中文分词词典
+
+extra:
+  generator: true
+  social:
+    - icon: material/github
+      link: https://www.github.com/jayi0908
+    - icon: material/google
+      link: https://myaccount.google.com/payments-and-subscriptions?gar=WzEyMF0
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+extra_css:
+  - ./css/custom.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js  # 允许自动渲染数学公式
+
+nav:
+  - Home: index.md
+  - Why tri: ./Why tri/about.md
+  - Useful Tools: 
+    - Toc: ./Useful Tools/tools.md
+    - 和差化积与积化和差: ./Useful Tools/sum2product.md
+    - 变相同一法: ./Useful Tools/another_equal.md
+    - 余切联合技术: ./Useful Tools/cot.md
+  - Sine Laws: 
+    - 奠基性的正弦定理: ./Sine Law/sine.md
+    - 正弦定理系: ./Sine Law/more_sine.md
+  - Cosine Laws: 
+    - 补充性的余弦定理: ./Cosine Law/cosine.md
+    - 余弦定理系: ./Cosine Law/more_cosine.md
+  - TIT: 
+    - 三角联合定理: ./TIT/tit.md
+    - 基于“消点”的三角法底层展开: ./TIT/expansion.md
+  - Basic Cons: ./Basic Cons/cons.md
+  - Others: 
+    - 记号变动: ./Others/others.md
