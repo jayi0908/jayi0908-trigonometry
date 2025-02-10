@@ -3,11 +3,12 @@ site_url: https://jayi0908.github.io/trigonometry/
 copyright: Copyright &copy; 2024-? <a href="https://github.com/jayi0908" target="_blank" rel="noopener">jayi0908</a>
 theme:
   name: material
+  custom_dir: docs/custom
   language: 'zh'
-  favicon: icon/favicon.png
+  favicon: icons/favicon.png
   icon: 
-    logo: ./Assets/material/notebook-outline
-    top: ./Assets/material/arrow_upward
+    logo: material/notebook-outline
+    top: material/arrow_upward
   features:
     - navigation.footer # 允许页脚导航
     - navigation.tabs # 允许标签导航
