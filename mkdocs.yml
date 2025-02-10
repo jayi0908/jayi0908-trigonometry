@@ -6,8 +6,8 @@ theme:
   language: 'zh'
   favicon: icon/favicon.png
   icon: 
-    logo: material/notebook-outline
-    top: material/arrow_upward
+    logo: ./Assets/material/notebook-outline
+    top: ./Assets/material/arrow_upward
   features:
     - navigation.footer # 允许页脚导航
     - navigation.tabs # 允许标签导航
