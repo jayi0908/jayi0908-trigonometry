@@ -1,7 +1,7 @@
 ## 共边比例定理
 
 <div>
-    <img src=".https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <div>
     <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
@@ -67,15 +67,6 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
 
 下面是一个例子：
 !!! example "角元塞瓦定理的抛瓦"
-    <!-- <div>
-        <img src="../image/ceva_eg_default.png" class="light-theme-image" alt="塞瓦定理" style="height: 250px; float: left">
-    </div>
-    <div>
-        <img src="../image/ceva_eg_slate.png" class="dark-theme-image" alt="塞瓦定理" style="height: 250px; float: left">
-    </div>
-    <br><br>
-    如图，两圆$\Gamma_1,\Gamma_2$交于$A,B$两点，点$C,D$分别在$\Gamma_1,\Gamma_2$上且线段$CD$与$\Gamma_1$的第二个交点为$E$，直线$BC$与圆$\Gamma_2$的第二个交点为$F$，直线$DF$与$EB$交于点$G$，直线$CG$与$AB$交于点$P$，求证：若$E$为$CD$的中点，则直线$PF$与$CA$的交点$Q$在圆$\Gamma_2$上。  
-    <br><br><br><br><br><br><br> -->
     <div style="flex-wrap: wrap;">
         <div style="flex: 1; max-width: 30%;">
             <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_eg_default.png" class="light-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
@@ -90,4 +81,16 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
     <div>
     !!! proof "问题之证明"
         我们设点$Q$在圆$\Gamma_2$上，反过来证明：$CG,AB,FQ$三线共点。  
+        对$\triangle BFG$与三条线使用角元塞瓦定理，即  
+        $\Leftrightarrow\dfrac{\sin\angle DFQ}{\sin\angle QFB}\cdot\dfrac{\sin\angle ABC}{\sin\angle EBA}\cdot\dfrac{\sin\angle BGC}{\sin\angle CGF}=1.$  
+        由于$G$为$BE$和$DF$的交点，故处理$\dfrac{\sin\angle BGC}{\sin\angle CGF}$时需将点$G$消掉.  
+        使用分角定理与梅涅劳斯，  
+        $\dfrac{\sin\angle BGC}{\sin\angle CGF}=\dfrac{BC}{CF}\cdot\dfrac{FG}{BG}=\dfrac{BC}{CF}\cdot\dfrac{DF}{BE}\cdot\dfrac{CE}{DC}.$
+
+        由正弦定理 $\dfrac{CE}{BE}=\dfrac{\sin\angle EBC}{\sin\angle BCE}$，$\dfrac{DF}{DC}=\dfrac{\sin\angle FCD}{\sin\angle DFC}$，
+
+        故$\dfrac{\sin\angle BGC}{\sin\angle CGF}=\dfrac{BC}{CF}\cdot\dfrac{\sin\angle EBC}{\sin\angle DFC}$，即证：
+
+        $\dfrac{\sin\angle DFQ}{\sin\angle QFB}\cdot\dfrac{\sin\angle ABC}{\sin\angle EBA}\cdot\dfrac{\sin\angle EBC}{\sin\angle DFC}\cdot\dfrac{BC}{CF}=1.$
+
     </div>

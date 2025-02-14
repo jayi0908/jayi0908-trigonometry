@@ -4,12 +4,12 @@
 
 ## Toc
 
-* [为什么使用三角法(Why trigonometry)](./Why%20tri/about.md)
-* [常用工具拾遗(Useful Tools)](./Useful%20Tools/tools.md)
-* [正弦定理杂谈(Sine Law)](./Sine%20Law/sine.md)
-* [余弦定理杂谈(Cosine Law)](./Cosine%20Law/cosine.md)
+* [为什么使用三角法(Why trigonometry)](./Why_tri/about.md)
+* [常用工具拾遗(Useful Tools)](./Useful_Tools/tools.md)
+* [正弦定理杂谈(Sine Law)](./Sine_Law/sine.md)
+* [余弦定理杂谈(Cosine Law)](./Cosine_Law/cosine.md)
 * [三角联合定理(Trigonometry Integrated Theorem)](./TIT/tit.md)
-* [基本构型补全(Basic Configurations)](./Basic%20Cons/cons.md)
+* [基本构型补全(Basic Configurations)](./Basic_Cons/cons.md)
 * [杂项(Others)](./Others/others.md)
 
 !!! Tip "致谢"

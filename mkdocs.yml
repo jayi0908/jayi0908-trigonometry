@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: docs/custom
   language: 'zh'
-  favicon: https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/custom/icons/favicon.png
+  favicon: icons/favicon.png
   icon: 
     logo: material/notebook-outline
     top: material/arrow-up-thin
@@ -71,27 +71,27 @@ extra_css:
   - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/css/custom.css
   - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
-  - javascripts/katex.js
+  - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js  # 允许自动渲染数学公式
 
 nav:
   - Home: index.md
-  - Why tri: ./Why tri/about.md
+  - Why tri: ./Why_tri/about.md
   - Useful Tools: 
-    - Toc: ./Useful Tools/tools.md
-    - 和差化积与积化和差: ./Useful Tools/sum2product.md
-    - 变相同一法: ./Useful Tools/another_equal.md
-    - 余切联合技术: ./Useful Tools/cot.md
+    - Toc: ./Useful_Tools/tools.md
+    - 和差化积与积化和差: ./Useful_Tools/sum2product.md
+    - 变相同一法: ./Useful_Tools/another_equal.md
+    - 余切联合技术: ./Useful_Tools/cot.md
   - Sine Laws: 
-    - 奠基性的正弦定理: ./Sine Law/sine.md
-    - 正弦定理系: ./Sine Law/more_sine.md
+    - 奠基性的正弦定理: ./Sine_Law/sine.md
+    - 正弦定理系: ./Sine_Law/more_sine.md
   - Cosine Laws: 
-    - 补充性的余弦定理: ./Cosine Law/cosine.md
-    - 余弦定理系: ./Cosine Law/more_cosine.md
+    - 补充性的余弦定理: ./Cosine_Law/cosine.md
+    - 余弦定理系: ./Cosine_Law/more_cosine.md
   - TIT: 
     - 三角联合定理: ./TIT/tit.md
     - 基于“消点”的三角法底层展开: ./TIT/expansion.md
-  - Basic Cons: ./Basic Cons/cons.md
+  - Basic Cons: ./Basic_Cons/cons.md
   - Others: 
     - 记号变动: ./Others/others.md
