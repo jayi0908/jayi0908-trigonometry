@@ -1,5 +1,7 @@
 site_name: Trigonometry by jayi0908
-site_url: https://jayi0908.github.io/trigonometry/
+site_url: https://jayi0908.github.io/jayi0908-trigonometry/
+repo_name: jayi0908-trigonometry
+repo_url: https://github.com/jayi0908/jayi0908-trigonometry
 copyright: Copyright &copy; 2024-? <a href="https://github.com/jayi0908" target="_blank" rel="noopener">jayi0908</a>
 theme:
   name: material
@@ -43,7 +45,10 @@ markdown_extensions:
       generic: true # 允许使用通用的数学公式
   - attr_list
   - md_in_html
-  - pymdownx.blocks.caption # 允许图片和表格添加标题
+  - pymdownx.blocks.caption # 允许图片和表格添加标题  
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg # 使用SVG格式的表情
 
 use_directory_urls: false
 
@@ -72,6 +77,7 @@ extra_css:
   - https://unpkg.com/katex@0/dist/katex.min.css
 extra_javascript:
   - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/katex.js
+  - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/music.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js  # 允许自动渲染数学公式
 
@@ -83,6 +89,7 @@ nav:
     - 和差化积与积化和差: ./Useful_Tools/sum2product.md
     - 变相同一法: ./Useful_Tools/another_equal.md
     - 余切联合技术: ./Useful_Tools/cot.md
+    - 合分比技术: ./Useful_Tools/mean_proportionals.md
   - Sine Laws: 
     - 奠基性的正弦定理: ./Sine_Law/sine.md
     - 正弦定理系: ./Sine_Law/more_sine.md

@@ -4,6 +4,7 @@
 - [和差化积与积化和差](./sum2product.md)
 - [变相同一法](./another_equal.md)
 - [余切联合技术](./cot.md)
+- [合分比技术](./mean_proportionals.md)
 
 !!! Info "一些变动"
     为了逻辑自洽+便于表达，有一些记号会发生改变并不再次声明，详情跳转[记号变动](../Others/others.md).

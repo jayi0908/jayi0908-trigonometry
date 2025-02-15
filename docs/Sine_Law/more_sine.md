@@ -66,20 +66,21 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
 - 角元塞瓦定理则限制更少，只要图中的线性条件更多，角元塞瓦定理会成为一个很不错的抓手点。
 
 下面是一个例子：
-!!! example "角元塞瓦定理的抛瓦"
+??? example "角元塞瓦定理的抛瓦"
     <div style="flex-wrap: wrap;">
         <div style="flex: 1; max-width: 30%;">
             <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_eg_default.png" class="light-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
         </div>
         <div style="flex: 1; max-width: 30%;">
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_eg_slate.png" class="dark-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; ">
+            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_eg_slate.png" class="dark-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
         </div>
-        <div style="flex: 1; max-width: 70%; display: flex; align-items: center; ">
+        <div style="flex: 1; max-width: 100%; align-items: center; ">
             <p>如图，两圆$\Gamma_1,\Gamma_2$交于$A,B$两点，点$C,D$分别在$\Gamma_1,\Gamma_2$上且线段$CD$与$\Gamma_1$的第二个交点为$E$，直线$BC$与$\Gamma_2$的第二个交点为$F$，直线$DF$与$EB$交于点$G$，直线$CG$与$AB$交于点$P$，求证：若$E$为$CD$的中点，则直线$PF$与$CA$的交点$Q$在圆$\Gamma_2$上。</p>
+            <p>(2019-3-希望联盟夏令营-P14)</p>
         </div>
     </div>
     <div>
-    !!! proof "问题之证明"
+    ??? proof "问题之证明"
         我们设点$Q$在圆$\Gamma_2$上，反过来证明：$CG,AB,FQ$三线共点。  
         对$\triangle BFG$与三条线使用角元塞瓦定理，即  
         $\Leftrightarrow\dfrac{\sin\angle DFQ}{\sin\angle QFB}\cdot\dfrac{\sin\angle ABC}{\sin\angle EBA}\cdot\dfrac{\sin\angle BGC}{\sin\angle CGF}=1.$  
@@ -89,8 +90,23 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
 
         由正弦定理 $\dfrac{CE}{BE}=\dfrac{\sin\angle EBC}{\sin\angle BCE}$，$\dfrac{DF}{DC}=\dfrac{\sin\angle FCD}{\sin\angle DFC}$，
 
-        故$\dfrac{\sin\angle BGC}{\sin\angle CGF}=\dfrac{BC}{CF}\cdot\dfrac{\sin\angle EBC}{\sin\angle DFC}$，即证：
+        $\dfrac{BC}{CF}=\dfrac{CE}{CD}\cdot\dfrac{\sin\angle CAB\cdot\sin\angle DFC}{\sin\angle EBC\cdot\sin\angle CDF}$
 
-        $\dfrac{\sin\angle DFQ}{\sin\angle QFB}\cdot\dfrac{\sin\angle ABC}{\sin\angle EBA}\cdot\dfrac{\sin\angle EBC}{\sin\angle DFC}\cdot\dfrac{BC}{CF}=1.$
+        故$\dfrac{\sin\angle BGC}{\sin\angle CGF}=\dfrac{CE}{CD}\cdot\dfrac{\sin\angle CAB}{\sin\angle CDF}$，即证：
 
+        $\dfrac{\sin\angle DFQ}{\sin\angle QFB}\cdot\dfrac{\sin\angle ABC}{\sin\angle EBA}\cdot\dfrac{\sin\angle CAB}{\sin\angle CDF}\cdot\dfrac{CE}{CD}=1.$
+
+        经过探索，我们采用基本量表示的方法：  
+        设$\angle BCD=\alpha$，$\angle DFQ=\beta$，则导角后即证：  
+        $\dfrac{\sin\beta}{\sin A}\cdot\dfrac{\sin B}{\sin(C-\alpha)}\cdot\dfrac{\sin A}{\sin(A+\alpha+\beta)}\cdot\dfrac{CE}{CD}=1$.  
+        $\Leftrightarrow\dfrac{2CE}{CD}\sin B\sin\beta=2\sin(A+\alpha+\beta)\sin(C-\alpha)\\
+        =\cos(A-C+2\alpha+\beta)-\cos(A+C+\beta)\\
+        =\cos(A-C+2\alpha+\beta)+\cos B\cos\beta+\sin B \sin\beta$  
+        由条件，对$\triangle ADC$用正弦定理  
+        $\dfrac{CD}{\sin\beta}=\dfrac{AC}{\sin(\beta+\alpha-C)}=\dfrac{CE\sin B}{\sin(A+\alpha)\sin(\beta+\alpha-C)}.$  
+        即$-\dfrac{2CE}{CD}\sin B\sin\beta=2\sin(A+\alpha)\sin(C-\beta-\alpha)\\
+        =\cos(A-C+2\alpha+\beta)-\cos(A+C-\beta)\\
+        =\cos(A-C+2\alpha+\beta)+\cos B\cos\beta-\sin B \sin\beta$  
+        故结论成立 $\Leftrightarrow 2CE=CD$. 得证.<div style="text-align: right">$\Box$</div>
     </div>
+    当然本题不止这一种同一法的思路，但是基本上都是选择让线共点或点共线，而不是线的交点在圆上，因为前者可以利用的性质更多，并且有现成的梅塞定理可以使用。
