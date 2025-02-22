@@ -4,12 +4,12 @@
 
 $ \triangle A B C$ 满足：$b,c,A$ 已知，则 $B,C$ 的余切均可用 $b,c,A$ 表示.  
 
-换成三角形式为：$$ \dfrac{\sin(\theta-\alpha)}{\sin \theta}=\lambda \Rightarrow \cot \theta=\dfrac{\cos \alpha-\lambda}{\sin \alpha}.$$
+其三角等价形式为：$$ \dfrac{\sin(\theta-\alpha)}{\sin \theta}=\lambda \Rightarrow \cot \theta=\dfrac{\cos \alpha-\lambda}{\sin \alpha}.$$
 
 ---
 
 ??? proof "定理之证明"
-    证明是简单的，注意到$\dfrac{\sin(\theta-\alpha)}{\sin \theta}=\dfrac{\sin \theta \cos \alpha-\sin \alpha \cos \theta}{\sin \theta}=\cos \alpha-\sin \alpha \cot \theta$即可。<div style="text-align: right">$\Box$</div>
+    证明是简单的，注意到 $\dfrac{\sin(\theta-\alpha)}{\sin \theta}=\dfrac{\sin \theta \cos \alpha-\sin \alpha \cos \theta}{\sin \theta}=\cos \alpha-\sin \alpha \cot \theta$ 即可。<div style="text-align: right">$\Box$</div>
 
 ---
 

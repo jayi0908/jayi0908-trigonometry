@@ -81,3 +81,11 @@ body {
     -webkit-mask-image: var(--md-admonition-icon--music);
             mask-image: var(--md-admonition-icon--music); /*修改标题图标*/
 }
+
+[data-md-color-scheme=default] a.hiddenlink {
+    color: black;  /* default 主题下白色背景，设置黑色文本 */
+}
+
+[data-md-color-scheme=slate] a.hiddenlink {
+    color: hsla(225,15%,90%,0.82);  /* slate 主题下黑色背景，设置灰白色文本 */
+}

@@ -28,7 +28,8 @@
     如图，$\triangle ABC$及$BC$边上一点$D$，有$\dfrac{BD}{DC}=\dfrac{AB\sin\angle BAD}{AC\sin\angle DAC}$.
 </p>
 <br><br>
-证明见[奠基性的正弦定理](./sine.md#分角定理)部分。  
+证明见[奠基性的正弦定理](./sine.md#分角定理)部分。
+
 分角定理给出了共线线段比例的一般处理方法，以及"分角"（$\angle BAC$及其一条角分线$AD$组成的图形）的一种处理方法。由于构型简单，可被广泛使用。
 
 ---
@@ -43,7 +44,8 @@
 <!-- </figcaption> -->
 </figure>
 
-塞瓦定理：  
+塞瓦定理：
+
 $D,E,F$分别在直线$AB,BC,CA$上，则  
 $AD,BE,CF$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{A D}{D B} \cdot \dfrac{B E}{E C} \cdot \dfrac{C F}{F A}=1.$  
 ??? proof "定理之证明"
@@ -52,7 +54,8 @@ $AD,BE,CF$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{A D}{D B} \cdot
     若两两平行，用平行线分线段成比例易得.  
     充分性：
     用同一法+必要性的证明即可.<div style="text-align: right">$\Box$</div>
-将边的分比用分角定理改为分角，则可得到角元塞瓦定理：  
+将边的分比用分角定理改为分角，则可得到角元塞瓦定理：
+
 $D,E,F$分别在直线$AB,BC,CA$上，则  
 $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle B A D}{\sin \angle D A C} \cdot \dfrac{\sin \angle C B E}{\sin \angle E B A} \cdot \dfrac{\sin \angle A C F}{\sin \angle F C B}=1$ .
 ??? proof "定理之证明"
@@ -110,3 +113,38 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
         故结论成立 $\Leftrightarrow 2CE=CD$. 得证.<div style="text-align: right">$\Box$</div>
     </div>
     当然本题不止这一种同一法的思路，但是基本上都是选择让线共点或点共线，而不是线的交点在圆上，因为前者可以利用的性质更多，并且有现成的梅塞定理可以使用。
+
+---
+
+## 张角定理
+
+<div>
+    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="张角定理" style="height: 150px; float: left">
+</div>
+<div>
+    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="张角定理" style="height: 150px; float: left">
+</div>
+<br>
+<p style="margin-bottom: 8px;">
+    如图，$\triangle ABC$ 及一点 $D$，有：
+</p>
+<p>
+    $B,C,D$ 共线 $\Leftrightarrow \dfrac{\sin\angle BAD}{AC}+\dfrac{\sin\angle DAC}{AB}=\dfrac{\sin\angle BAC}{AD}.$
+</p>
+
+>由于有向角的存在，这个式子已经蕴含 $D$ 不在线段 $BC$ 上的情形.
+
+??? proof "定理之证明"
+    用有向面积：
+
+    $B,C,D$ 共线 $\Leftrightarrow [ABD]+[ADC]=[ABC]$
+
+    $\Leftrightarrow AB\cdot AD\sin\angle BAD+AD\cdot AC\sin\angle DAC=AB\cdot AC\sin\angle BAC$
+    
+    $\Leftrightarrow \dfrac{\sin\angle BAD}{AC}+\dfrac{\sin\angle DAC}{AB}=\dfrac{\sin\angle BAC}{AD}.$<div style="text-align: right">$\Box$</div>
+
+张角定理的强大之处在于它只要有一个点 $A$ 处的三条线组成的分角和三条线的长度就可以确定共线关系，而不关心 $B,C,D$ 这样的点在哪里，以及它们之间的关系。
+
+相较于坐标、复数等解共线的方程，三角法解共线会更简单一点，特别是作为分母的三条边长度表达式有较多公因式时，通分会简单很多。
+
+除了共线问题的证明，张角定理也常用来进行分角线长度的计算。

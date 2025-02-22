@@ -45,10 +45,7 @@ markdown_extensions:
       generic: true # 允许使用通用的数学公式
   - attr_list
   - md_in_html
-  - pymdownx.blocks.caption # 允许图片和表格添加标题  
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg # 使用SVG格式的表情
+
 
 use_directory_urls: false
 
@@ -83,17 +80,17 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Why tri: ./Why_tri/about.md
+  - Why Trigonometry: ./Why_tri/about.md
   - Useful Tools: 
     - Toc: ./Useful_Tools/tools.md
     - 和差化积与积化和差: ./Useful_Tools/sum2product.md
     - 变相同一法: ./Useful_Tools/another_equal.md
     - 余切联合技术: ./Useful_Tools/cot.md
     - 合分比技术: ./Useful_Tools/mean_proportionals.md
-  - Sine Laws: 
+  - Sine Law: 
     - 奠基性的正弦定理: ./Sine_Law/sine.md
     - 正弦定理系: ./Sine_Law/more_sine.md
-  - Cosine Laws: 
+  - Cosine Law: 
     - 补充性的余弦定理: ./Cosine_Law/cosine.md
     - 余弦定理系: ./Cosine_Law/more_cosine.md
   - TIT: 

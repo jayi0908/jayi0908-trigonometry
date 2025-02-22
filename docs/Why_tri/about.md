@@ -1,6 +1,6 @@
 # Why trigonometry
 
-<s>因为三角法NB</s>  
+> <s>因为三角法NB</s>  
 
 ## 三角法的核心
 

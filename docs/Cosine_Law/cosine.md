@@ -39,16 +39,16 @@ $$ c^2=a^2+b^2-2ab\cos C $$
 
 特别的，当某一个内角为 $90^{\circ}$ 时，余弦定理退化为勾股定理。  
 (这也是笔者没有写用勾股定理证明余弦定理的原因，就是希望从基础的定义出发推导其他结论，而勾股定理属于二级结论，用它来证明虽然不难，但不太符合笔者的意图。)
-!!! Info "有关勾股定理的拓展阅读"
+??? Info "有关勾股定理的拓展阅读"
     关于“$\sin^2 x+\cos^2 x=1$”这一命题的独立性，最近似乎有了突破：有两位女高中生证明了基于基本的代数知识，该式可被独立证明，不依赖于勾股定理，并进一步表明，三角学并不是必须依赖于勾股定理才能建立。  
     见
     === "需要科学上网的版本"
         <ul>
             <li>
-                [High school students may have just discovered an 'impossible' proof to the 2,000-year-old Pythagorean theorem(News)](https://www.livescience.com/high-school-students-may-have-just-discovered-an-impossible-proof-to-the-2000-year-old-pythagoeran-theorem)
+                [(News) High school students may have just discovered an 'impossible' proof to the 2,000-year-old Pythagorean theorem](https://www.livescience.com/high-school-students-may-have-just-discovered-an-impossible-proof-to-the-2000-year-old-pythagoeran-theorem)
             </li>
             <li>
-                [18 year old students just discovered a proof of Pythagoras that mathematicians said was impossible(Youtube)](https://www.youtube.com/watch?v=juFdo2bijic)
+                [(Youtube) 18 year old students just discovered a proof of Pythagoras that mathematicians said was impossible](https://www.youtube.com/watch?v=juFdo2bijic)
             </li>
         </ul>
 
