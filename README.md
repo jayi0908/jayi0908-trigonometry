@@ -17,6 +17,6 @@
 - 运行```pip install -r requirements.txt```
 - 安装完成后运行```mkdocs serve```
 
-本仓库欢迎有技术更有情怀的 contributoes
+本仓库欢迎有技术更有情怀的 contributors
 
 代码和素材为私人财产，侵权必究
