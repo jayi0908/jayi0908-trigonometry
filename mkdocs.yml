@@ -71,12 +71,12 @@ extra:
   #     make our documentation better.
 extra_css:
   - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/css/custom.css
-  - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
 extra_javascript:
   - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/katex.js
   - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/music.js
-  - https://unpkg.com/katex@0/dist/katex.min.js
-  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js  # 允许自动渲染数学公式
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js # 允许自动渲染数学公式
 
 nav:
   - Home: index.md
@@ -96,6 +96,9 @@ nav:
   - TIT: 
     - 三角联合定理: ./TIT/tit.md
     - 基于“消点”的三角法底层展开: ./TIT/expansion.md
-  - Basic Cons: ./Basic_Cons/cons.md
+  - Basic Cons: 
+    - TIT的最后几块拼图(?): ./Basic_Cons/cons.md
+    - 圆相切: ./Basic_Cons/tangentcirc.md
+    - 塞瓦型补充: ./Basic_Cons/more_ceva.md
   - Others: 
     - 记号变动: ./Others/others.md
