@@ -19,6 +19,11 @@ jobs:
 
       - name: Install MkDocs and dependencies
         run: pip install mkdocs-material
+      
+      - name: Install MkDocs plugins
+        run: | 
+          pip install mkdocs-minify-plugin
+          pip install mkdocs-statistics-plugin
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
