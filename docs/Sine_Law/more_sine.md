@@ -1,10 +1,10 @@
 ## 共边比例定理
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <br>
 <p style="margin-bottom: 8px;">
@@ -18,10 +18,10 @@
 ## 分角定理
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_default.png" class="light-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_slate.png" class="dark-theme-image" alt="共边比例定理" style="height: 150px; float: left">
 </div>
 <br>
 <p style="margin-bottom: 8px;">
@@ -37,8 +37,8 @@
 ## 角元塞瓦定理
 
 <figure>
-<img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_default.png" class="light-theme-image" alt="塞瓦定理" style="height: 250px">
-<img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_slate.png" class="dark-theme-image" alt="塞瓦定理" style="height: 250px">
+<img src="../assets/images/ceva_default.png" class="light-theme-image" alt="塞瓦定理" style="height: 250px">
+<img src="../assets/images/ceva_slate.png" class="dark-theme-image" alt="塞瓦定理" style="height: 250px">
 <!-- <figcaption> -->
 <small>多种形式的Ceva定理</small>
 <!-- </figcaption> -->
@@ -72,10 +72,10 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
 ??? example "角元塞瓦定理的抛瓦"
     <div style="flex-wrap: wrap;">
         <div style="flex: 1; max-width: 30%;">
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_eg_default.png" class="light-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
+            <img src="../assets/images/ceva_eg_default.png" class="light-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
         </div>
         <div style="flex: 1; max-width: 30%;">
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ceva_eg_slate.png" class="dark-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
+            <img src="../assets/images/ceva_eg_slate.png" class="dark-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
         </div>
         <div style="flex: 1; max-width: 100%; align-items: center; ">
             <p>如图，两圆$\Gamma_1,\Gamma_2$交于$A,B$两点，点$C,D$分别在$\Gamma_1,\Gamma_2$上且线段$CD$与$\Gamma_1$的第二个交点为$E$，直线$BC$与$\Gamma_2$的第二个交点为$F$，直线$DF$与$EB$交于点$G$，直线$CG$与$AB$交于点$P$，求证：若$E$为$CD$的中点，则直线$PF$与$CA$的交点$Q$在圆$\Gamma_2$上。</p>
@@ -119,10 +119,10 @@ $A D,B E,C F$ 三线共点或两两平行 $\Leftrightarrow$ $\dfrac{\sin \angle 
 ## 张角定理
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="张角定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_default.png" class="light-theme-image" alt="张角定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="张角定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_slate.png" class="dark-theme-image" alt="张角定理" style="height: 150px; float: left">
 </div>
 <br>
 <p style="margin-bottom: 8px;">

@@ -3,10 +3,10 @@
 ---
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/casey_default.png" class="light-theme-image" alt="开世定理" style="height: 180px; float: left">
+    <img src="../assets/images/casey_default.png" class="light-theme-image" alt="开世定理" style="height: 180px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/casey_slate.png" class="dark-theme-image" alt="开世定理" style="height: 180px; float: left">
+    <img src="../assets/images/casey_slate.png" class="dark-theme-image" alt="开世定理" style="height: 180px; float: left">
 </div>
 <p>$\space$</p>
 <p style="margin-bottom: 8px;">
@@ -41,10 +41,10 @@
 
 值得一提的是，开世定理的退化情形也成立，当四个圆均退化成点时即为托勒密定理；而只有三个圆退化为点时即有如下结论：
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/backcasey_default.png" class="light-theme-image" alt="退化开世定理" style="height: 180px; float: left">
+    <img src="../assets/images/backcasey_default.png" class="light-theme-image" alt="退化开世定理" style="height: 180px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/backcasey_slate.png" class="dark-theme-image" alt="退化开世定理" style="height: 180px; float: left">
+    <img src="../assets/images/backcasey_slate.png" class="dark-theme-image" alt="退化开世定理" style="height: 180px; float: left">
 </div>
 <p>$\space$</p>
 <p style="margin-bottom: 8px;">

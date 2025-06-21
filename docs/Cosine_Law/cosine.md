@@ -54,10 +54,10 @@ $$ c^2=a^2+b^2-2ab\cos C $$
 
     === "不需要科学上网的版本"
         <div>
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/s2+c2=1_default.png" class="light-theme-image" style="height: 300px;float: left">
+            <img src="../assets/images/s2+c2=1_default.png" class="light-theme-image" style="height: 300px;float: left">
         </div>
         <div>
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/s2+c2=1_slate.png" class="dark-theme-image" style="height: 300px;float: left">
+            <img src="../assets/images/s2+c2=1_slate.png" class="dark-theme-image" style="height: 300px;float: left">
         </div>        
         利用诱导公式可知，只需证明对$\forall \alpha \in (0,\dfrac{\pi}{4}]$，$\sin^2 \alpha+\cos^2\alpha=1$.  
         ??? proof "命题之证明"

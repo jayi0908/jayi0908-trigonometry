@@ -4,10 +4,10 @@
 ??? example "合分比技术的例子"
     <div style="flex-wrap: wrap;">
         <div style="flex: 1; max-width: 30%;">
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/hefenbi_default.png" class="light-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
+            <img src="../assets/images/hefenbi_default.png" class="light-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
         </div>
         <div style="flex: 1; max-width: 30%;">
-            <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/hefenbi_slate.png" class="dark-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
+            <img src="../assets/images/hefenbi_slate.png" class="dark-theme-image" alt="塞瓦定理" style="max-width: 100%; height: auto; float: left">
         </div>
         <div style="flex: 1; max-width: 100%; align-items: center; ">
             <p>如图，在锐角$\triangle ABC$中，$AB>AC$，$H$为垂心，$AM$为中线，$BE,CF$是高，$D$在 $BC$ 边上，满足 $\angle CAD=\angle BAM$ 与 $\angle ADH=\angle MAH$，求证：$EF$平分线段$AD$。</p>

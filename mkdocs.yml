@@ -1,83 +1,3 @@
-site_name: Trigonometry by jayi0908
-site_url: https://jayi0908.github.io/jayi0908-trigonometry/
-repo_name: jayi0908-trigonometry
-repo_url: https://github.com/jayi0908/jayi0908-trigonometry
-copyright: Copyright &copy; 2024-? <a href="https://github.com/jayi0908" target="_blank" rel="noopener">jayi0908</a>
-theme:
-  name: material
-  custom_dir: docs/custom
-  language: 'zh'
-  favicon: icons/favicon.png
-  icon: 
-    logo: material/notebook-outline
-    top: material/arrow-up-thin
-  features:
-    - navigation.footer # 允许页脚导航
-    - navigation.tabs # 允许标签导航
-    - navigation.tabs.sticky # 允许标签导航固定
-    - navigation.sections # 允许章节导航
-    - navigation.path # 允许路径导航(形如 Home > Details)
-    - navigation.top # 允许返回顶部
-    - navigation.instant 
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.tracking
-  font: false
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light Mode
-      primary: teal
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark Mode
-      primary: blue
-      accent: orange
-markdown_extensions:
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.arithmatex:
-      generic: true # 允许使用通用的数学公式
-  - attr_list
-  - md_in_html
-
-
-use_directory_urls: false
-
-plugins:
-  - search: 
-      lang: [zh, en]
-      # separator: '[\s\-,:!=\[\]()"/]+|(?<!\w)\.(?!\d)|&[lg]t;' # 分词器分词规则，"[\s\-,:!=\[\]()"/]+"为特殊分隔符，"(?<!\w)\.(?!\d)"为小数点分隔符，"&[lg]t;"为HTML转义字符
-      jieba_dict:  # 自定义中文分词词典
-
-extra:
-  generator: true
-  social:
-    - icon: material/github
-      link: https://www.github.com/jayi0908
-    - icon: material/google
-      link: https://myaccount.google.com/payments-and-subscriptions?gar=WzEyMF0
-  # consent:
-  #   title: Cookie consent
-  #   description: >- 
-  #     We use cookies to recognize your repeated visits and preferences, as well
-  #     as to measure the effectiveness of our documentation and whether users
-  #     find what they're searching for. With your consent, you're helping us to
-  #     make our documentation better.
-extra_css:
-  - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/css/custom.css
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
-extra_javascript:
-  - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/katex.js
-  - https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/music.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
-  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js # 允许自动渲染数学公式
-
 nav:
   - Home: index.md
   - Why Trigonometry: ./Why_tri/about.md
@@ -102,3 +22,88 @@ nav:
     - 塞瓦型补充: ./Basic_Cons/more_ceva.md
   - Others: 
     - 记号变动: ./Others/others.md
+
+site_name: Trigonometry by jayi0908
+site_url: https://jayi0908.github.io/jayi0908-trigonometry/
+repo_name: jayi0908-trigonometry
+repo_url: https://github.com/jayi0908/jayi0908-trigonometry
+copyright: Copyright &copy; 2024-? <a href="https://github.com/jayi0908" target="_blank" rel="noopener">jayi0908</a>
+theme:
+  name: material
+  custom_dir: overrides
+  language: 'zh'
+  favicon: assets/icons/favicon.png
+  icon: 
+    logo: material/notebook-outline
+    top: material/arrow-up-thin
+  features:
+    - navigation.tabs # 顶部显示导航顶层nav（也就是第一个节点）
+    - navigation.tabs.sticky # 滚动是隐藏顶部nav，需要配合navigation.tabs使用
+    - navigation.sections # 允许章节导航
+    - navigation.path # 允许路径导航(形如 Home > Details)
+    - navigation.top # 允许返回顶部
+    - navigation.footer # 允许页脚导航
+    - navigation.prune # 侧边栏自动折叠
+    - navigation.tracking # 在url中使用标题定位锚点
+    - toc.follow # toc 跟随
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: teal
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: blue
+      accent: orange
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true # 允许使用通用的数学公式
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+use_directory_urls: false
+plugins:
+  - statistics:
+      words_per_minute: 200
+  - search: 
+      lang: [zh, en]
+      separator: '[\s\u200b\-]'
+      # separator: '[\s\-,:!=\[\]()"/]+|(?<!\w)\.(?!\d)|&[lg]t;' # 分词器分词规则，"[\s\-,:!=\[\]()"/]+"为特殊分隔符，"(?<!\w)\.(?!\d)"为小数点分隔符，"&[lg]t;"为HTML转义字符
+      jieba_dict:  # 自定义中文分词词典
+  - minify:
+      minify_html: true
+
+extra:
+  generator: true
+  social:
+    - icon: material/github
+      link: https://www.github.com/jayi0908
+    - icon: material/google
+      link: https://myaccount.google.com/payments-and-subscriptions?gar=WzEyMF0
+  # consent:
+  #   title: Cookie consent
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, as well
+  #     as to measure the effectiveness of our documentation and whether users
+  #     find what they're searching for. With your consent, you're helping us to
+  #     make our documentation better.
+extra_css:
+  - assets/css/custom.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+extra_javascript:
+  - assets/javascripts/katex.js
+  - assets/javascripts/music.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js # 允许自动渲染数学公式

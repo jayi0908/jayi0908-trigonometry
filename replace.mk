@@ -1,19 +1,19 @@
 RP_FILES := $(shell find . -type f \( -name "*.md" -o -name "*.yml" -o -name "*.css" \))
 
 WEB_CSS_TXT := https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/css/
-LOCAL_CSS_TXT := ./css/
+LOCAL_CSS_TXT := assets/css/
 
 WEB_IMG_TXT := https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/
-LOCAL_IMG_TXT := ../image/
+LOCAL_IMG_TXT := ../assets/images/
 
 WEB_JS_TXT := https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/javascripts/
-LOCAL_JS_TXT := javascripts/
+LOCAL_JS_TXT := assets/javascripts/
 
 WEB_FONT_TXT := https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/fonts/
 LOCAL_FONT_TXT := ../fonts/
 
 WEB_MUSIC_TXT := https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/audio/
-LOCAL_MUSIC_TXT := ../audio/
+LOCAL_MUSIC_TXT := ../assets/audio/
 
 .PHONY: local web
 

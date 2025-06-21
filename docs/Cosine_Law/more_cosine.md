@@ -1,10 +1,10 @@
 ## 等差幂线定理
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/dengchami_default.png" class="light-theme-image" alt="等差幂线定理" style="height: 150px; float: left">
+    <img src="../assets/images/dengchami_default.png" class="light-theme-image" alt="等差幂线定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/dengchami_slate.png" class="dark-theme-image" alt="等差幂线定理" style="height: 150px; float: left">
+    <img src="../assets/images/dengchami_slate.png" class="dark-theme-image" alt="等差幂线定理" style="height: 150px; float: left">
 </div>
 <br>
 <p style="margin-bottom: 10px;">
@@ -20,10 +20,10 @@
 ## 斯特瓦尔特定理
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_default.png" class="light-theme-image" alt="斯特瓦尔特定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_default.png" class="light-theme-image" alt="斯特瓦尔特定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/fen_slate.png" class="dark-theme-image" alt="斯特瓦尔特定理" style="height: 150px; float: left">
+    <img src="../assets/images/fen_slate.png" class="dark-theme-image" alt="斯特瓦尔特定理" style="height: 150px; float: left">
 </div>
 <br>
 <p style="margin-bottom: 10px;">
@@ -46,10 +46,10 @@
 ## 托勒密定理
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ptolemy_default.png" class="light-theme-image" alt="托勒密定理" style="height: 150px; float: left">
+    <img src="../assets/images/ptolemy_default.png" class="light-theme-image" alt="托勒密定理" style="height: 150px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/ptolemy_slate.png" class="dark-theme-image" alt="托勒密定理" style="height: 150px; float: left">
+    <img src="../assets/images/ptolemy_slate.png" class="dark-theme-image" alt="托勒密定理" style="height: 150px; float: left">
 </div>
 <br>
 <p>

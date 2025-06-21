@@ -71,11 +71,7 @@
     让我成为照亮黑暗的星光
 
     （方：同“疯”，<del>应该是</del>四川方言）
-    <div data-audio="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/audio/孤勇者.mp3"></div>
-
-!!! Info "注"
-    由于没有伴奏的音源，又没有使用AI演唱，就采用了原曲的音源了，awa  
-    目前出了点bug，在跳转到本页后刷新一下再展开上面的标签页就能放音乐，但还不能首次展开就能放音乐
+    <div data-audio="../assets/audio/孤勇者.mp3"></div>
 
 虽然<del>有点尬</del>，但是笔者留下这篇文档时正如歌中所写的奥赛者，用卑微的梦和孤高的“方”，去做自己想做的事，并把当年的追梦心得记录下来，这也是笔者留下这篇文档的意图所在。
 

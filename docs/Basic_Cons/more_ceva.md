@@ -1,7 +1,7 @@
 在解决几何问题的过程中，有一个较为常见的构型：
 <figure>
-<img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/塞瓦型_default.png" class="light-theme-image" alt="塞瓦型" style="height: 200px">
-<img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/塞瓦型_slate.png" class="dark-theme-image" alt="塞瓦型" style="height: 200px">
+<img src="../assets/images/塞瓦型_default.png" class="light-theme-image" alt="塞瓦型" style="height: 200px">
+<img src="../assets/images/塞瓦型_slate.png" class="dark-theme-image" alt="塞瓦型" style="height: 200px">
 <!-- <figcaption> -->
 <small>塞瓦型</small>
 <!-- </figcaption> -->
@@ -22,10 +22,10 @@ $$ \dfrac{P A \cdot B C}{\sin(\angle B P C-\angle B A C)}=\dfrac{P B \cdot A C}{
 ??? proof "引理之证明"
     构造相似形如下：
     <div>
-        <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/Ceva型引理_default.png" class="light-theme-image" alt="Ceva型引理" style="height: 180px; float: right">
+        <img src="../assets/images/Ceva型引理_default.png" class="light-theme-image" alt="Ceva型引理" style="height: 180px; float: right">
     </div>
     <div>
-        <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/Ceva型引理_slate.png" class="dark-theme-image" alt="Ceva型引理" style="height: 180px; float: right">
+        <img src="../assets/images/Ceva型引理_slate.png" class="dark-theme-image" alt="Ceva型引理" style="height: 180px; float: right">
     </div>
     其中$\triangle A B P \sim \triangle A C P'$，故又有$\triangle A B C \sim \triangle A P P'$，从而：
     $$ \dfrac{B C}{P P'}=\dfrac{A B}{A P} $$
@@ -48,10 +48,10 @@ $$ \dfrac{P A \cdot B C}{\sin(\angle B P C-\angle B A C)}=\dfrac{P B \cdot A C}{
 下面用一个例子展示一下这个引理的强大之处：
 
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/CevaLemma_eg_default.png" class="light-theme-image" alt="Ceva引理例题" style="height: 180px; float: left">
+    <img src="../assets/images/CevaLemma_eg_default.png" class="light-theme-image" alt="Ceva引理例题" style="height: 180px; float: left">
 </div>
 <div>
-    <img src="https://cdn.jsdelivr.net/gh/jayi0908/jayi0908-trigonometry@master/docs/image/CevaLemma_eg_slate.png" class="dark-theme-image" alt="Ceva引理例题" style="height: 180px; float: left">
+    <img src="../assets/images/CevaLemma_eg_slate.png" class="dark-theme-image" alt="Ceva引理例题" style="height: 180px; float: left">
 </div>
 <p>$\space$</p>
 <p style="margin-bottom: 15px;">
